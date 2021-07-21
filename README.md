@@ -15,6 +15,7 @@ ATLAS_URI=mongodb+srv://test:test@cluster0.lprvg.mongodb.net/myFirstDatabase?ret
 ```
 
 ##Getting started
+
 To install all npm packages, go to the directory where ```package.json``` is loacted and run
 ```angular2html
 npm install
