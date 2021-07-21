@@ -9,7 +9,7 @@
 
 ## MongoDB Altas setup
  
-1. Create a .env file in the backend folder
+1. Create a ```.env``` file in the backend folder
 2. Sign up for a free MongoDB Atlas account
 3. Create a new project
 4. Create a Cluster
@@ -18,8 +18,10 @@
 7. Find the connection URI string:
    -> Clusters -> Connect -> Connect your application
    
-   Note: Change the user: and the <password> to match your User you just created
-8. Copy the connection URI into .env with ATLAS_URI=<connection string>
+   Note: Change the user and the password to match your User you just created
+8. Copy the connection URI into ```.env```
+
+    e.g. ```ATLAS_URI=connection URI```
     
 And if you want, get https://docs.mongodb.com/manual/administration/install-community/ ! It will be very handy (and much less laggier than the browser version) when you are debugging.
 
