@@ -1,20 +1,31 @@
-#Immediate feedback assessment technique (IF-AT) platform
+# Immediate feedback assessment technique (IF-AT) platform
 
-##Project structure
+## Project structure
 - client/src:
     - components : React components for the user interface
 - index.js : point of entry
 - routes : includes the API end points definition
 - models : Mongoose database Schemas
 
-##Project setup
+## MongoDB Altas setup
  
-Go to your root folder and create a .env file. Add the following code to your file (fyl the link is for connecting with MongoDB Atlas )
-```angular2html
-ATLAS_URI=mongodb+srv://test:test@cluster0.lprvg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-```
+1. Create a .env file in the backend folder
+2. Sign up for a free MongoDB Atlas account
+3. Create a new project
+4. Create a Cluster
+5. Set Network Access to be 0.0.0.0/0
+6. Create a new User and give them Read/Write/Admin permissions
+7. Find the connection URI string:
+   -> Clusters -> Connect -> Connect your application
+   Note: Change the user: and the <password> to match your User you just created
+8. Copy the connection URI into .env with ATLAS_URI=<connection string>
+9. Make sure to add the appropriate SESSION_EXPIRY in .env, see https://github.com/we-are-number-1/yumble/wiki/Yumble-Architecture-&-Design#database---mongodb
+    
+And if you want, get https://docs.mongodb.com/manual/administration/install-community/ ! It will be very handy (and much less laggier than the browser version) when you are debugging.
 
-##Getting started
+
+
+## Getting started
 
 To install all npm packages, go to the directory where ```package.json``` is loacted and run
 ```angular2html
