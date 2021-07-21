@@ -17,6 +17,7 @@
 6. Create a new User and give them Read/Write/Admin permissions
 7. Find the connection URI string:
    -> Clusters -> Connect -> Connect your application
+   
    Note: Change the user: and the <password> to match your User you just created
 8. Copy the connection URI into .env with ATLAS_URI=<connection string>
 9. Make sure to add the appropriate SESSION_EXPIRY in .env, see https://github.com/we-are-number-1/yumble/wiki/Yumble-Architecture-&-Design#database---mongodb
