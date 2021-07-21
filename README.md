@@ -20,7 +20,6 @@
    
    Note: Change the user: and the <password> to match your User you just created
 8. Copy the connection URI into .env with ATLAS_URI=<connection string>
-9. Make sure to add the appropriate SESSION_EXPIRY in .env, see https://github.com/we-are-number-1/yumble/wiki/Yumble-Architecture-&-Design#database---mongodb
     
 And if you want, get https://docs.mongodb.com/manual/administration/install-community/ ! It will be very handy (and much less laggier than the browser version) when you are debugging.
 
