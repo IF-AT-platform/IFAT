@@ -23,7 +23,7 @@
 
     e.g. ```ATLAS_URI=connection URI```
     
-And if you want, get https://docs.mongodb.com/manual/administration/install-community/ ! It will be very handy (and much less laggier than the browser version) when you are debugging.
+And if you want, get https://docs.mongodb.com/manual/administration/install-community/ ! It will be very handy when debugging.
 
 
 
