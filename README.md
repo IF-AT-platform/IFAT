@@ -27,11 +27,14 @@ And if you want, get https://docs.mongodb.com/manual/administration/install-comm
 
 
 
-## Getting started
-
-To install all npm packages, go to the directory where ```package.json``` is loacted and run
+To install all npm packages,run
 ```angular2html
 npm install
+npm run install-client
+```
+To run the entire project, go into the root directory and run
+```
+npm start
 ```
 To run the frontend, go into the client folder and run
 ```angular2html
